@@ -118,8 +118,10 @@ if __name__ == '__main__':
     pygame.init()
     window_size = (1640, 840)
     screen = pygame.display.set_mode(window_size)
+    
     pygame.display.update()
     pygame.display.set_caption('Snake game Magalie Vandenbriele, Pierre Ghyzel, Irama Chaouch')
+    
     game_over = False
     clock = pygame.time.Clock()
 
